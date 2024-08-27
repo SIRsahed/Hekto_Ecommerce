@@ -17,7 +17,7 @@ const Navbar = () => {
             <Container>
                 <div className="flex justify-between items-center">
                     <div className="w-[20%] items-center">
-                        <Image src={Logo}/>
+                        <Image src={Logo} alt='latest_product'/>
                     </div>
                     <div className="w-[50%]">
                         <ul className={`${lato.className} flex gap-x-10 items-center`}>
